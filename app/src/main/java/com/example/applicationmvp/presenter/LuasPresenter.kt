@@ -5,8 +5,8 @@ class LuasPresenter (
 ) {
 
     fun hitungLuasPersegiPanjang(panjang: Float, lebar: Float){
-        val hasil = panjang*lebar
-        val keliling = 2*(panjang+lebar)
+        val hasil = panjang * lebar
+        val keliling = 2 * (panjang + lebar)
 
         luasView.hasilLuasPersegiPanjang(hasil)
         luasView.keliling(keliling)

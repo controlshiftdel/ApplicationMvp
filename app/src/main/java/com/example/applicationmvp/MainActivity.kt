@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity(),
         presenter = LuasPresenter(this)
 
         etPanjang = findViewById(R.id.et_panjang)
-        etLebar = findViewById(R.id.et_panjang)
+        etLebar = findViewById(R.id.et_lebar)
         tvHasilLuasPersegiPanjang = findViewById(R.id.tv_hasil_luas_persegi_panjang)
         tvHasilKelilingPersegiPanjang = findViewById(R.id.tv_hasil_Keliling_persegi_panjang)
 
